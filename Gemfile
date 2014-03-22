@@ -18,6 +18,11 @@ gem 'simple_form'
 gem 'therubyracer', :platform=>:ruby
 gem 'thin'
 gem 'zurb-foundation', '~> 4.3.2'
+
+# In order to push my work
+gem 'heroku'
+gem 'rails_12factor'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
