@@ -1,0 +1,14 @@
+<%= simple_form_for(@banc_where) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :n_rue %>
+    <%= f.input :adress %>
+    <%= f.input :code_postal %>
+    <%= f.input :ville %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

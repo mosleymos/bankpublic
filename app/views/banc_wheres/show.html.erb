@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>N rue:</strong>
+  <%= @banc_where.n_rue %>
+</p>
+
+<p>
+  <strong>Adress:</strong>
+  <%= @banc_where.adress %>
+</p>
+
+<p>
+  <strong>Code postal:</strong>
+  <%= @banc_where.code_postal %>
+</p>
+
+<p>
+  <strong>Ville:</strong>
+  <%= @banc_where.ville %>
+</p>
+
+<%= link_to 'Edit', edit_banc_where_path(@banc_where) %> |
+<%= link_to 'Back', banc_wheres_path %>

@@ -1,4 +1,6 @@
 Bankpublic::Application.routes.draw do
+  resources :banc_wheres
+
   get 'bancfinder/find'
 
   root :to => "home#index"
