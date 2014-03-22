@@ -11,7 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140322091708) do
+ActiveRecord::Schema.define(version: 20140322114530) do
+
+  create_table "banc_locations", force: true do |t|
+    t.integer  "n_rue"
+    t.text     "adress"
+    t.integer  "code_postal"
+    t.string   "ville"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false
