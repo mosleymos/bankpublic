@@ -16,13 +16,14 @@ gem 'devise_invitable'
 gem 'sendgrid'
 gem 'simple_form'
 gem 'therubyracer', :platform=>:ruby
-gem 'thin'
 gem 'zurb-foundation', '~> 4.3.2'
 
 # In order to push my work
 gem 'heroku'
 gem 'rails_12factor'
 gem 'pg'
+# Fem in order to make some single page application
+gem 'ember-rails'
 
 group :development do
   gem 'better_errors'
