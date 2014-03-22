@@ -22,6 +22,7 @@ gem 'zurb-foundation', '~> 4.3.2'
 # In order to push my work
 gem 'heroku'
 gem 'rails_12factor'
+gem 'pg'
 
 group :development do
   gem 'better_errors'
